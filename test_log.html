@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Log API</title>
+</head>
+<body>
+
+<h2>Uji Log API</h2>
+<form action="log_api.php" method="POST">
+    Status Lampu:<br>
+    <input type="text" name="status_lampu" value="ON"><br><br>
+    Sumber:<br>
+    <input type="text" name="sumber" value="Test Manual"><br><br>
+    Waktu Nyala (YYYY-MM-DDTHH:MM:SSZ):<br>
+    <input type="text" name="waktu_menyala" value="2025-09-16T10:00:00Z"><br><br>
+    Waktu Padam (YYYY-MM-DDTHH:MM:SSZ):<br>
+    <input type="text" name="waktu_padam" value="2025-09-16T10:05:00Z"><br><br>
+    Lama Menyala (detik):<br>
+    <input type="number" name="lama_menyala_detik" value="300"><br><br>
+    <input type="submit" value="Kirim Log">
+</form>
+
+</body>
+</html>
